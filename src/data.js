@@ -1,0 +1,35 @@
+export const initialProducts = [
+  {
+    id: 1,
+    name: 'Espresso Blend',
+    category: 'Espresso',
+    price: 12.99,
+    quantity: 10,
+    image: 'https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400',
+    description: 'A rich, bold espresso with notes of chocolate and caramel.',
+    specs: { roast: 'Dark', size: '250g', notes: 'Chocolate, Caramel' },
+    rating: 4.5,
+  },
+  {
+    id: 2,
+    name: 'Vanilla Latte',
+    category: 'Latte',
+    price: 15.99,
+    quantity: 3, // Low stock
+    image: 'https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=400',
+    description: 'Smooth latte infused with vanilla for a creamy delight.',
+    specs: { roast: 'Medium', size: '500ml', notes: 'Vanilla, Cream' },
+    rating: 4.8,
+  },
+  {
+    id: 3,
+    name: 'Croissant Pastry',
+    category: 'Pastry',
+    price: 5.99,
+    quantity: 20,
+    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400',
+    description: 'Flaky, buttery croissant perfect with your coffee.',
+    specs: { type: 'Butter', size: 'Large', notes: 'Flaky, Buttery' },
+    rating: 4.2,
+  },
+];

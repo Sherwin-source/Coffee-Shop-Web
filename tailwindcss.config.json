@@ -1,0 +1,9 @@
+{
+  "version": 1.4,
+  "logLevel": ["debug"],
+  "experimental": {
+    "classRegex": [
+      ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ]
+  }
+}
