@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import ProductDetailPage from './pages/ProductDetailPage';
-import AddProductPage from './pages/AddProductPage';
-import Cart from './components/Cart';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import Home from './pages/Home.jsx';
+import ProductDetailPage from './pages/ProductDetailPage.jsx';
+import AddProductPage from './pages/AddProductPage.jsx';
+import Cart from './components/Cart.jsx';
 import { initialProducts } from './data';
 
 function App() {

@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import ProductCard from '../components/ProductCard';
-import SearchBar from '../components/SearchBar';
+import ProductCard from '../components/ProductCard.jsx';
+import SearchBar from '../components/SearchBar.jsx';
 
 function Home({ products, addToCart }) {
   const [search, setSearch] = useState('');
